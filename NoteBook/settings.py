@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 import dj_database_url
 import cloudinary
 import cloudinary_storage
+import cloudinary.uploader
+import cloudinary.api
 
 load_dotenv()
 
