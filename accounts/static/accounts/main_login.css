@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('./images/login.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.page {
+    background: rgba(169, 228, 233, 0.5);
+    padding: 3rem 1.5rem;
+    height: 100%;
+    width: 33%;
+    border-radius: 40px;
+    border: 2px solid #000000;
+    margin: 4% auto;
+    text-align: center;
+}
+
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-family: cursive;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.login-form-btn {
+    width: 50%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid red;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.wrap-input {
+    margin: 30px 0;
+}
+
+.loginform-title {
+    font-size: 1.5rem;
+}
+
+.label-input {
+    float: left;
+}
+
+form .loginform-title {
+    size: 500px;
+}
+
+input {
+    background: rgb(201, 226, 201);
+}
+
+input:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+strong {
+    color: yellow;
+}
+
+/* media queries */
+@media only screen and (max-width:1126px) {
+    .page{
+        width: 495px;
+    }
+    
+}
+@media only screen and (max-width:703px) {
+    .page{
+        width: 491px;
+    }
+    
+}
+@media only screen and (max-width:607px) {
+    .page{
+        width: 470px;
+    }
+    
+}
+@media only screen and (max-width:540px) {
+    .page{
+        width: 424px;
+    }
+}
+@media only screen and (max-width:485px) {
+    .page{
+       width: 387px;
+    }
+    
+}
+@media only screen and (max-width:475px) {
+   
+    .login-form-btn{
+        margin: -12px 0;
+        margin-bottom: 8px;
+    }
+    
+}
+@media only screen and (max-width:429px) {
+    .page{
+       width: 341px;
+    }
+    
+}
+@media only screen and (max-width:392px) {
+    .page{
+      
+        height: 565px;
+        margin: 12% auto;
+        padding: 1rem 1rem;
+    }
+    .login-form-btn{
+        margin: -12px 0;
+        margin-bottom: 8px;
+    }
+    
+}
+
+@media only screen and (max-width:362px) {
+    .page{
+        width:317px;
+    }
+    .login-form-btn{
+        margin: -12px 0;
+        margin-bottom: 2px;
+    }
+}
+@media only screen and (max-width:340px) {
+    p{
+        position: relative;
+        top: -28px;
+        margin-bottom: -1rem;
+    }
+}
+@media only screen and (max-width:337px) {
+    .page{
+        width: 298px;
+        margin: 13% auto;
+    }
+}
+@media only screen and (max-width:320px) {
+    .page{
+        width: 298px;
+        height: 510px;
+        margin: 14% auto;
+    }
+    input[type=text],
+    input[type=password] {
+        margin: 0px 0;
+    
+    }
+    .wrap-login-form-btn{
+        margin: -23px 0;
+    }
+    .fp{
+        padding-top: 27px;
+        /* padding: 30px 0; */
+        display: block;
+    }
+    .flex-col-c .p-t-155{
+        padding-top: 1px;
+    }
+    .text2{
+        padding-top: 1px;
+    }
+}

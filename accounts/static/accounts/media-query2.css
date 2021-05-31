@@ -1,0 +1,595 @@
+@media screen and (max-width:1500px){
+    label{
+        margin: 0px 5px;
+    }
+    
+}
+@media screen and (max-width:1379px){
+    label{
+        margin: 0px 0px;
+    }
+    
+}
+@media screen and (max-width:1307px){
+    #sem-btn{
+        left: 411px;
+    }
+    
+}
+
+@media screen and (max-width:1225px){
+    #sem-btn{
+        left: 377px;
+    }
+    
+}
+
+@media screen and (max-width:1189px){
+    #sem-btn{
+        left: 350px;
+    }
+    
+}
+@media screen and (max-width:1177px){
+  label{
+      padding: 8px 2px;
+  }
+}
+@media screen and (max-width:1083px){
+    #sem-btn{
+        left: 322px;
+    }
+}
+@media screen and (max-width:1040px){
+    #sem-btn{
+        left: 296px;
+    }
+}
+@media screen and (max-width:1020px){
+    #sem-btn{
+        left: 287px;
+    }
+}
+@media screen and (max-width:1011px){
+    #sem-btn{
+        left: 280px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .line {
+        width: 30px;
+        height: 3px;
+        background: rgb(20, 20, 20);
+        margin: 5px;
+        position: relative;
+        left: 863px;
+        top: 7px;
+    }
+    .nav-links{
+        display: none;
+    }
+    nav{
+        position: absolute;
+    }
+    .fa-3x {
+        position: relative;
+        font-size: 3em;
+        top: -31px;
+    }
+    .greet{
+        width: 22%;
+        padding: 82px 20px;
+        padding-top: 10px;
+        left: 14px;
+        margin-right: 0;
+    }
+    #sem-btn{
+        left: 235px;
+        margin: 10px 20px;
+    }
+    label{
+        padding: 8px 2px;
+        margin: 0px;
+    }
+    .container {
+        top: 4rem;
+        width: 985px;
+    }
+    .container .card {
+        position: relative;
+        width: 269px;
+        height: 400px;
+        margin: 27px;
+    }
+    .lSAction>.lSNext {
+        background-position: -32px 0;
+        right: 4px;
+    }
+    .container .card .content p {
+        left: -224px;
+    }
+}
+@media screen and (max-width:940px){
+    .line{
+        left: 811px;
+    }
+    nav{
+        width: 100%;
+    }
+    #sem-btn {
+        left: 235px;
+        margin: 10px 10px;
+        margin-right: 0;
+    }
+    .container .card {
+        width: 240px;
+        margin: 31px;
+    }
+    .container {
+        width: 946px;
+    }
+    .lSAction>.lSNext {
+        right: 31px;
+    }
+    .container .card .content h2{
+        left: -204px;
+    }
+    .container .card .content h3{
+        left: -208px;
+    }
+    .container .card .content p{
+        width: 237px;
+    left: -197px;
+    }
+}
+@media screen and (max-width:915px){
+   .container{
+       top: 5rem;
+       width: 830px;
+   }
+   .container .card{
+    margin: 31px 27px;
+    margin-right: 0px;
+   }
+   .greet {
+    width: 50%;
+    padding: 43px 20px;
+    padding-top: 10px;
+    left: 224px;
+    top: 71px;
+   }
+   #sem-btn{
+       left: 128px;
+       top: 8rem;
+   }
+   label{
+       margin: 2px;
+   }
+   #select-nav-links{
+       column-gap: 5rem;
+   }
+   .topcontainer{
+       top: 12rem !important;
+   }
+   .lSAction>.lSNext {
+    right: -7px;
+}
+}
+@media screen and (max-width:875px){
+    .line{
+        left: 772px;
+    }
+    #sem-btn{
+        left: 92px;
+    }
+}
+@media screen and (max-width:825px){
+    .line {
+        left: 704px;
+    }
+    #sem-btn {
+        left: 81px;
+    }
+    #select-nav-links {
+        column-gap: 4rem;
+    }
+}
+@media screen and (max-width:800px){
+    #sem-btn {
+        left: 51px;
+    }
+    .greet {
+        left: 96px;
+    }
+    .container {
+        top: 3rem;
+        width: 556px;
+        right: 140px;
+    }
+    #sem-btn{
+        display: none;
+    }
+    #sem-btn2{
+        display: flex;
+    }
+    #sem-btn2 ul li >ul{
+        display: block;
+    }
+    #sem-btn2{
+        left: 429px;
+        top: 5rem;
+    }
+    #secondbtn #sem-btn2  ul .shift2 {
+        top: 5rem;
+    }
+    .topcontainer {
+        top: 7rem !important;
+    }
+    #select-nav-links {
+        column-gap: 3rem;
+    }
+}
+@media screen and (max-width:760px){
+    .line {
+        left: 648px;
+    }
+}
+@media screen and (max-width:735px){
+    #select-nav-links a{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:715px){
+    .line {
+        left: 614px;
+    }
+}
+@media screen and (max-width:698px){
+    .line {
+        left: 585px;
+    }
+    .user1 {
+        font-size: large;
+    }
+    .user {
+        font-size: large;
+    }
+    .greet {
+        width: 43%;
+        padding: 40px 20px;
+        padding-top: 10px;
+        left: 71px;
+    }
+    .container{
+        right: 119px;
+    }
+}
+@media screen and (max-width:675px){
+    #sem-btn2 {
+        left: 415px;
+        top: 5rem;
+    }
+}
+@media screen and (max-width:655px){
+    #sem-btn2 ul li >ul{
+        display: none;
+    }
+
+    #sem-btn2 ul li:hover >ul{
+        display: block;
+    }
+    .container {
+        right: 46px;
+    }
+    .greet{
+        left: 54px;
+    }
+    #sem-btn2{
+        left: 313px;
+    }
+    .line{
+        left: 557px;
+    }
+}
+@media screen and (max-width:625px){
+    .line {
+        left: 522px;
+    }
+    .container {
+        right: 50px;
+    }
+    #select-nav-links {
+        column-gap: 2rem;
+    }
+}
+@media screen and (max-width:590px){
+    .line {
+        left: 495px;
+    }
+    .container {
+        right: 50px;
+        top: 4rem;
+    }
+   
+}
+@media screen and (max-width:553px){
+    .line {
+        left: 463px;
+    }   
+}
+@media screen and (max-width:522px){
+    .line {
+        left: 432px;
+    }   
+}
+@media screen and (max-width:512px){
+    .line {
+        left: 432px;
+    } 
+    .container .card {
+        width: 220px;
+        margin: 20px 12px;
+        height: 358px;
+    } 
+    .container{
+        /* border: 2px solid wheat; */
+        top: 6rem;
+        width: 496px;
+    } 
+    .container .card .content h2 {
+        left: -180px;
+        font-size: 2rem;
+    }
+    .container .card .content h3 {
+        left: -186px;
+        font-size: 1.5rem;
+        top: 50px;
+    }
+    .container .card .content p {
+        width: 220px;
+        left: -180px;
+        height: 212px;
+        top: 133px;
+    }
+    /* .container .card .content h2 {
+        position: absolute;
+        top: 10px;
+        right: 28px;
+        font-size: 2rem;
+    }
+    .container .card .content h3{
+        font-size: 1.4rem;
+        margin-top: 42px;
+    } */
+    .lSAction>.lSNext {
+        right: -8px;
+    }
+    .lSAction>.lSPrev{
+        left: -3px;
+    }
+    /* .container .card .content p {
+        position: relative;
+        font-size: 0.9rem;
+        top: -20px;
+    } */
+    #select-nav-links {
+        column-gap: 1.5rem;
+    }
+    #select-nav-links a {
+        font-size: 0.7rem;
+    }
+    .topcontainer {
+        top: 10rem !important;
+    }
+    .greet {
+        left: 29px;
+    }
+    #sem-btn2 {
+        left: 239px;
+    }
+}
+@media screen and (max-width:491px){
+    .line {
+        left: 398px;
+    }
+    #select-nav-links {
+        flex-wrap: wrap;
+        column-gap: 1rem;
+    }
+}
+@media screen and (max-width:475px){
+    .line {
+        left: 380px;
+    }
+    .container .card {
+        width: 210px;
+        margin: 20px 6px;
+        height: 346px;
+    }
+    .container{
+        width: 456px;
+    }
+    #select-nav-links {
+        column-gap: 0.7rem;
+    }
+    .lSAction>.lSPrev {
+        left: -10px;
+    }
+    .container .card .content h3 {
+        top: 46px;
+    }
+    .container .card .content p {
+        width: 209px;
+        left: -168px;
+        height: 212px;
+        top: 121px;
+    }
+}
+@media screen and (max-width:451px){
+    .container .card {
+        width: 188px;
+        margin: 20px 6px;
+        height: 318px;
+    }
+    
+    .container {
+        width: 416px;
+    }
+    #sem-btn2 {
+        left: 187px;
+    }
+    #select-nav-links {
+        column-gap: 0.5rem;
+    }
+    #select-nav-links a {
+        font-size: 0.6rem;
+    }
+    .line {
+        left: 360px;
+    }
+    .container .card .content h2 {
+        top: 14px;
+        left: -154px;
+        font-size: 1.79rem;
+    }
+    .container .card .content h3 {
+        top: 37px;
+        left: -152px;
+    }
+    .container .card .content p{
+        font-size: 0.8rem;
+    }
+    .container .card .content p {
+        width: 194px;
+        left: -149px;
+        height: 182px;
+        top: 114px;
+    }
+}
+@media screen and (max-width:424px){
+    .line {
+        left: 336px;
+    }
+    .fa-3x {
+        position: relative;
+        font-size: 2em;
+        top: -23px;
+    }
+}
+@media screen and (max-width:409px){
+    #select-nav-links {
+        column-gap: 0.3rem;
+    }
+    .line {
+        left: 315px;
+    }
+    .fa-3x {
+        position: relative;
+        font-size: 2em;
+        top: -23px;
+    }
+    .container .card{
+        width: 179px;
+        height: 305px;
+    }
+    .container .card .content h2 {
+        top: 14px;
+        left: -139px;
+        font-size: 1.7rem;
+    }
+    .container .card .content p {
+        width: 183px;
+        left: -139px;
+        height: 182px;
+        top: 114px;
+    }
+    .container .card .content h3 {
+        top: 37px;
+        left: -142px;
+        font-size: 1.3rem;
+    }
+    .container {
+        top: 8rem;
+        width: 393px;
+    }
+    .greet{
+        top: 6rem;
+    }
+    #sem-btn2{
+        top: 5.5rem;
+    }
+}
+
+@media screen and (max-width:385px){
+
+    .container {
+        top: 8rem;
+        width: 235px;
+    }
+    .container .card {
+        width: 220px;
+        height: 353px;
+    }
+    .container .card .content h2 {
+        top: 14px;
+        left: -172px;
+        font-size: 2rem;
+    }
+    .container .card .content h3 {
+        top: 39px;
+        left: -171px;
+        font-size: 1.7rem;
+    }
+    .container .card .content p {
+        width: 219px;
+        left: -178px;
+        height: 213px;
+        top: 126px;
+    }
+    #sem-btn2 {
+        left: 74px;
+    }
+    .lSAction>.lSNext {
+        right: -11px;
+    }
+    #select-nav-links a {
+        font-size: 0.55rem;
+    }
+}
+
+@media screen and (max-width:382px){
+    #select-nav-links a {
+        position: relative;
+        font-size: 0.6rem;
+        left: 23px;
+    }
+}
+@media screen and (max-width:375px){
+    .line {
+        left: 284px;
+    }
+    #select-nav-links a {
+        font-size: 0.9rem;
+    }
+    #select-nav-links {
+        padding: 10px -1px;
+        left: 1px;
+    }
+}
+@media screen and (max-width:363px){
+    .user1 {
+        font-size: 13px;
+    }
+    .user {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:350px){
+    .line {
+        left: 258px;
+    }
+    #select-nav-links a{
+        left: 3px;
+    }
+}
