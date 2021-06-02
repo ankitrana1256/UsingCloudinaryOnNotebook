@@ -6,7 +6,8 @@ from django.core.validators import RegexValidator
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 from django.dispatch import receiver
-from cloudinary.models import CloudinaryField
+from cloudinary_storage.storage import RawMediaCloudinaryStorage
+from cloudinary_storage.storage import MediaCloudinaryStorage
 
 alphanumeric = RegexValidator(r'^[0-9a-zA-Z-]*$', 'Only alphanumeric characters are allowed.')
 
@@ -27,7 +28,7 @@ def unique_file_path(instance, filename):
     instance.original_file_name = filename
     base, ext = splitext(filename)
     newname = "%s%s" % (uuid.uuid4(), ext)
-    return os.path.join('photos', newname)
+    return os.path.join(newname)
 
 
 class Semester(models.Model):
@@ -52,7 +53,7 @@ class Subject(models.Model):
     subject_name = models.CharField(max_length=50)
     subject_code = models.CharField(max_length=10, validators=[alphanumeric])
     description = models.TextField(max_length=1000)
-    img = CloudinaryField('image')
+    img = models.ImageField(upload_to=unique_file_path, storage=MediaCloudinaryStorage())
 
     class Meta:
         verbose_name = "Subject"
@@ -81,7 +82,7 @@ class Notes(models.Model):
     unit = models.ForeignKey(Unit, on_delete=models.CASCADE)
     name = models.CharField(max_length=40)
     date = models.DateField(auto_now_add=True)
-    file_upload = models.FileField(upload_to=unique_file_path)
+    file_upload = models.FileField(upload_to=unique_file_path, storage=RawMediaCloudinaryStorage())
     uploaded_by = models.CharField(max_length=60)
 
     class Meta:
@@ -89,4 +90,4 @@ class Notes(models.Model):
         verbose_name_plural = "Notes"
 
     def __str__(self):
-        return self.name
+        return f"{self.name} ({self.subject})"
